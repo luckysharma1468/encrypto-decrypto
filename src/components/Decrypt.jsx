@@ -14,6 +14,7 @@ export default function Decrypt() {
     if (encryptedText !== "" && secretKey !== "") {
       const data = decryptData(encryptedText, secretKey);
       setDecryptedData(data);
+      setTextAdded(false);
 
       let timer = setTimeout(() => {
         setDecryptedData(false);
