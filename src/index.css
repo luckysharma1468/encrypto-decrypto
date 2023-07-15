@@ -1,13 +1,48 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(232, 90, 114);
+    color: white;
+    font-family: 'Lobster', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.heading {
+    font-family: 'Dancing Script', cursive !important;
 }
+
+.label {
+    cursor: pointer;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.textArea {
+    border-radius: 10px;
+    border: 5px solid rgb(215, 46, 215);
+    font-family: 'Poppins', sans-serif !important;
+    width: 350px;
+}
+
+.secretKey {
+    border-radius: 10px;
+    border: 5px solid rgb(215, 46, 215);
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.encryptDecryptSubmit {
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.homeDiv {
+    cursor: pointer;
+}
+
+.homeIcon {
+    height: 30px;
+    width: 50px;
+}
+
